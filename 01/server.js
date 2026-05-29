@@ -1,1 +1,0 @@
-// 01.0 Let's cover "global" into console.log function and see what's inside, because "global" is the key for the global object.
