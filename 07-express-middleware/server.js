@@ -111,7 +111,7 @@ const three = (req, res) => {
 
 app.get("/chain(.html)?", [one, two, three]);
 
-// 7.6.0 Okay, it's the last thing to do for this tutorial here — to compare methods "app.use" & "app.all". And that's what we're going to do right here as we change up the 404 just a little bit. We could use something like this and specify here at the end of the chain everything basically that came in from the "/" which would be the root, but "app.use" doesn't accept RegEx and also "app.use" overall is more likely to be used for middleware, but "app.all" is used for routing and this means it will apply to all HTTP-methods, and it also does accept RegEx.
+// 7.6.0 Okay, it's the last thing to do for this tutorial here — to compare methods "app.use" & "app.all". And that's what we're going to do right here as we change up the 404 just a little bit. We could use something like this and specify here at the end of the chain everything basically that came in from the "/" which would be the root, but "app.use" doesn't accept RegEx and also "app.use" overall is more likely to be used for middleware, but "app.all" is used for routing and this means it will apply to all HTTP-methods, and it also does accept RegEx. (!Correction: In new versions of Express.js method "app.get" does accept RegEx.)
 /* app.get("/!*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 }); */
