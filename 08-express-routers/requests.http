@@ -1,0 +1,35 @@
+### Get Employees List
+GET http://localhost:3500/employees
+Authorization: null
+Accept: application/json
+
+### Get A Specific Employee
+GET http://localhost:3500/employees/3
+Authorization: null
+Accept: application/json
+
+### Create New Employee
+POST http://localhost:3500/employees
+Content-Type: application/json
+
+{
+  "firstname": "Alex",
+  "lastname": "Parson"
+}
+
+### Edit Existing Employee
+PUT http://localhost:3500/employees
+Content-Type: application/json
+
+{
+  "id": 2,
+  "lastname": "Bummer"
+}
+
+### Delete An Existing Employee
+DELETE http://localhost:3500/employees
+Content-Type: application/json
+
+{
+  "id": 2
+}
