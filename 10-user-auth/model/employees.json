@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "firstname": "Dave",
+    "lastname": "Gray",
+    "age": 48,
+    "gender": "male",
+    "position": "Tech Lead Dev",
+    "salary": 10000
+  },
+  {
+    "id": 2,
+    "firstname": "John",
+    "lastname": "Smith",
+    "age": 35,
+    "gender": "male",
+    "position": "Junior Frontend Dev",
+    "salary": 4000
+  },
+  {
+    "id": 3,
+    "firstname": "Al",
+    "lastname": "Zaplin",
+    "age": 40,
+    "gender": "male",
+    "position": "Senior Full Stack Dev",
+    "salary": 8800
+  },
+  {
+    "id": 4,
+    "firstname": "Jannet",
+    "lastname": "Gale",
+    "age": 32,
+    "gender": "female",
+    "position": "Middle Backend Dev",
+    "salary": 6500
+  },
+  {
+    "id": 5,
+    "firstname": "Baxter",
+    "lastname": "Thompson",
+    "age": 60,
+    "gender": "male",
+    "position": "Project Manager",
+    "salary": 5700
+  },
+  {
+    "id": 6,
+    "firstname": "Sally",
+    "lastname": "Lemon",
+    "age": 22,
+    "gender": "female",
+    "position": "HR",
+    "salary": 3500
+  },  {
+    "id": 7,
+    "firstname": "George",
+    "lastname": "Bennett",
+    "age": 42,
+    "gender": "male",
+    "position": "CEO",
+    "salary": 15000
+  }
+]
