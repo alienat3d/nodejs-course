@@ -1,0 +1,39 @@
+### Get Employees List
+GET http://localhost:3500/employees
+Authorization: Bearer {{auth_token}}
+Accept: application/json
+
+### Get A Specific Employee
+GET http://localhost:3500/employees/7
+Authorization: Bearer {{auth_token}}
+Accept: application/json
+
+### Create New Employee
+POST http://localhost:3500/employees
+Content-Type: application/json
+
+{
+  "firstname": "Alex",
+  "lastname": "Parson",
+  "age": 33,
+  "gender": "male",
+  "position": "DevOps",
+  "salary": 5500
+}
+
+### Edit Existing Employee
+PUT http://localhost:3500/employees
+Content-Type: application/json
+
+{
+  "id": 1,
+  "salary": 5000
+}
+
+### Delete An Existing Employee
+DELETE http://localhost:3500/employees
+Content-Type: application/json
+
+{
+  "id": 8
+}
