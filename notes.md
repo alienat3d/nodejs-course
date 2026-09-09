@@ -14,3 +14,4 @@
 * If we specifically want to install any version of a package then we'll run such command (when installing "uuid" for example): `npm i uuid@8.3.1` and if we would type in `npm i uuid` then we'd get the latest version of "uuid" package.
 * Also, if we want to check for newer minor or patch versions of our installed packages after some time, we can run `npm update`.
 * To uninstall the package we can use `npm uninstall packageName`, `npm un packageName` or `npm rm packageName`. And if we're going to install
+>> (Lesson 12): [JSON Web Token (JWT) Debugger](https://www.jwt.io/) 
