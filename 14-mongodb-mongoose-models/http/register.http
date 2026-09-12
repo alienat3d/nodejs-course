@@ -1,0 +1,8 @@
+### Create New User
+POST http://localhost:3500/register
+Content-Type: application/json
+
+{
+  "user": "walt2",
+  "pwd": "Aa$12345"
+}

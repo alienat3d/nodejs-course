@@ -1,0 +1,13 @@
+### Log In Existing User
+POST http://localhost:3500/auth
+Content-Type: application/json
+
+{
+  "user": "dave1",
+  "pwd": "Aa$12345"
+}
+
+> {%
+  // This grabs the token from res.json({accessToken}) and saves it to WebStorm's memory
+  client.global.set("auth_token", response.body.accessToken);
+%}
