@@ -1,0 +1,3 @@
+? 1.0 In this tutorial we're going to apply the user and employee models to the remaining API routes and update the asynchronous CRUD-operations accordingly. And before we finish we'll have a look at the easy way to deploy RestAPI to the Web.
+1.1.0 So, let's start with applying the "User" model that we've created in the previous tutorial to the next route which will be a refresh token controller.
+(Go to [15-mongo-async-crud/controllers/refreshTokenController.js])
