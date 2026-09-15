@@ -1,0 +1,8 @@
+### Logout User
+GET http://localhost:3500/logout
+Content-Type: application/json
+
+> {%
+  // This sets the auth_token in WebStorm's memory to blank
+  client.global.set("auth_token", "");
+%}
